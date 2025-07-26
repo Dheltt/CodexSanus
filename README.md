@@ -45,9 +45,4 @@ Developed by: David (aka The Tenacious Mind)
 Inspired by modular AI agent architectures.
 Meant as an educational prototype for planning, memory, and response generation.
 
-⚠️ Notes
-This project is purely local and offline.
 
-It does not connect to any real AI model or external API.
-
-Ideal for learning purposes or expanding with your own AI tools.
