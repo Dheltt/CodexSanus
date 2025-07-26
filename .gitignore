@@ -1,0 +1,18 @@
+
+venv/
+# Variables de entorno
+.env
+
+# Logs
+logs/
+
+# Archivo de memoria 
+memory.json
+
+# Caché de Python
+__pycache__/
+*.pyc
+
+# Archivos temporales de sistema
+.DS_Store
+Thumbs.db
