@@ -2,14 +2,15 @@
 
 Please record a 3–5 minute walkthrough showing:
 
-- The problem you solve  
-- End-to-end agent behavior on a representative example  
-- Highlighted “agentic” steps (planning, tool calls, memory use)
+The problem our agent solves
 
+Step-by-step agent behavior with a sample query
+
+Highlights of planning, tool integration, and memory usage
 ---
 
 📺 **Provide a Hosted Public Video Link (YouTube unlisted / Loom / MP4):**  MUST BE ON A HOS
-https://your.video.link.here
+https://drive.google.com/file/d/1UKy5n5QMa8O-oUwNPhSPQXDIWtZY6mqf/view?usp=sharing
 
 PLEASE DO NOT UPLOAD RAW VIDOE FILES. These submissions will not be reviewed.
 
