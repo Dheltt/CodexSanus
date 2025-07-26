@@ -1,48 +1,59 @@
-# 🧠 CodexSanus - Your Minimalist AI Assistant
+CodexSanus — Agentic AI Application
+📌 What is this project?
 
-CodexSanus is a minimalist, console-based AI assistant that processes user queries, plans tasks, generates contextual responses, and stores previous interactions in memory. It's a small-scale simulation of an AI agent framework using Python.
 
-## 🚀 How to Run
+CodexSanus is an AI agent prototype built in Python that:
 
-Make sure you have Python 3 installed.
+Receives user input (queries or commands)
 
-```bash
-python main.py
+Plans and breaks down tasks into subtasks using a modular planner
+
+Executes subtasks via tool calls and internal logic
+
+Maintains memory of past interactions for contextual awareness
+
+Provides final summarized output to the user
+
+This project demonstrates a simple yet extensible architecture for agentic AI workflows with clear separation between planning, execution, memory, and UI layers.
+
+🚀 How to run
+Make sure you have Python 3.x installed.
+
+Activate your virtual environment (optional but recommended):
+
+
+source venv/Scripts/activate  # Windows PowerShell: venv\Scripts\Activate.ps1
+Install dependencies (if any):
+
+
+pip install -r requirements.txt
+Run the main app:
+
+
+python src/main.py
 📦 Requirements
 Python 3.x
 
-No external libraries required (pure Python)
+No external libraries beyond those in requirements.txt (currently minimal dependencies)
 
-📌 Features
-Takes user input and plans subtasks
-
-Executes each task using a simple logic module
-
-Maintains a memory of past questions and answers
-
-Provides a clean, modular architecture
-
-💡 Example Usage
-text
-Copiar código
-🧠 Your question: What are the benefits of meditation?
+💡 Example usage
+plaintext
+🧠 Enter your query: What is AI?
 
 CodexSanus is planning your query...
-🧩 Task 1: Define meditation
-🧩 Task 2: List mental health benefits
-🧩 Task 3: List physical health benefits
+🧩 Task 1: Define AI
+🧩 Task 2: List common applications
 
-✅ Meditation is a practice where an individual uses techniques...
-✅ Mentally, it reduces anxiety and improves focus...
-✅ Physically, it can lower blood pressure and enhance sleep...
+✅ AI stands for Artificial Intelligence...
+✅ Common applications include natural language processing, computer vision...
 
-📬 Final Response:
-Meditation is a mental practice used to increase awareness...
-It provides multiple mental and physical health benefits...
-👨‍🔧 Authors & Credits
-Developed by: David (aka The Tenacious Mind)
+📬 Final response:
+Artificial Intelligence refers to the simulation of human intelligence by machines...
+It is widely used in various fields such as NLP, image recognition, and robotics.
+🛠 Project structure
+src/ — Source code modules (planner, executor, memory, UI, logger)
 
-Inspired by modular AI agent architectures.
-Meant as an educational prototype for planning, memory, and response generation.
+🧑‍🔧 Author & credits
+Developed by David Fuerte Ramirez
 
-
+Inspired by agentic AI frameworks and modular design principles, this project is an educational prototype illustrating key AI agent concepts: planning, tool integration, and memory management.
